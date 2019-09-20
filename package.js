@@ -23,6 +23,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('t9n-export');
+  api.use('appworkshop:t9n-export');
   api.mainModule('t9n-export-tests.js');
 });
