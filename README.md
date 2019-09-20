@@ -3,7 +3,7 @@ meteor package package to the newer npm version.
 
 It attaches the T9n variable to the `window` object, and registers the `t9n` template helper.
 
-See the [t9n-export.js]() file for the code, it's pretty simple. It adds English to the T9n map, you can load 
+See the [t9n-export.js](./t9n-export.js) file for the code, it's pretty simple. It adds English to the T9n map, you can load 
 other languages like this:
 
 ```js
